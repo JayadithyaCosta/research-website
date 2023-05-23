@@ -397,6 +397,12 @@ h6 {
   color: #fff;
 }
 
+@media (min-width: 1024px) {
+  .h-42 {
+    height: 42rem;
+  }
+}
+
 @media (max-width: 991px) {
   #hero .hero-img {
     text-align: center;
@@ -553,7 +559,7 @@ section {
 }
 
 .clients .client-logo img {
-  height: 40px;
+  height: 60px;
 }
 
 .clients .client-logo:hover img {
@@ -606,7 +612,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/shutterImage1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -636,6 +642,14 @@ section {
   overflow: hidden;
   z-index: 9;
   border-radius: 0;
+  margin-left: 20%;
+}
+
+.services .card-img-no-margin {
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+  margin-left: 0;
 }
 
 .services .card-img img {
